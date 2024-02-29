@@ -340,6 +340,17 @@ nav {
         margin: auto;
         text-align: center;
     }
+
+    .skills-table {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .skills-row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 @media screen and (max-width: 60rem) {

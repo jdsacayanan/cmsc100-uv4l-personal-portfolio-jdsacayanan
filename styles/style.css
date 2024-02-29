@@ -1,0 +1,341 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+}
+
+body {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(156deg, #141414 0%, #2B2B2B 100%);
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50rem;
+    padding: .5rem 1rem;
+    margin: 1rem auto;
+    border-radius: 18.72px;
+    border: 0.936px solid rgba(126, 126, 126, 0.31);
+    background: linear-gradient(270deg, #262626 0%, #2F2F2F 100%);
+    box-shadow: 0px 3.744px 3.744px 0px rgba(0, 0, 0, 0.25);
+}
+
+.nav-links-ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-links-ul-li-a {
+    margin: 0rem 1rem;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.69);
+    font-size: 1.125rem;
+    line-height: normal;
+}
+
+.nav-contact-button {
+    color: white;
+    border: none;
+    font-size: 1.25rem;
+    padding: .5rem;
+    border-radius: 14.169px;
+    background: linear-gradient(95deg, #05C76D 0%, #00A458 99.97%);
+    box-shadow: 0px 2.267px 2.267px 0px rgba(0, 0, 0, 0.25);
+}
+
+.home {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.home-intro-text {
+    max-width: 50rem;
+}
+
+.intro-text-hello {
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.intro-text-name {
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.intro-text-description {
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.personal-photo-img {
+    height: calc(100vh - 5rem);
+}
+
+.education {
+    padding: 5rem;
+}
+
+.educ-is-important {
+    margin: auto;
+    font-size: 3rem;
+    max-width: 65rem;
+    text-align: center;
+}
+
+.educ-schools {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    margin: auto;
+    margin-top: 3rem;
+}
+
+.educ-container {
+    margin: 1rem;
+    padding: 1rem 5rem 1rem 1rem;
+    width: fit-content;
+    border-radius: 25px;
+    background: linear-gradient(92deg, rgba(23, 38, 53, 0.70) 0%, rgba(20, 43, 66, 0.27) 100%);
+}
+
+.educ-school {
+    margin-bottom: 0.5rem;
+}
+
+.educ-school-regular {
+    font-size: 1.25rem;
+}
+
+.educ-school-latest {
+    font-size: 1.75rem;
+}
+
+.educ-award {
+    width: fit-content;
+    padding: .5rem;
+    color: rgba(255, 255, 255, 0.60);
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 25px;
+    background: linear-gradient(93deg, rgba(40, 34, 34, 0.23) 0%, rgba(59, 20, 20, 0.67) 100%);
+    box-shadow: 0px 0px 4px 0px rgba(4, 202, 111, 0.29);
+}
+
+.educ-award-regular {
+    font-size: 0.75rem;
+}
+
+.educ-award-latest {
+    font-size: 1rem;
+}
+
+.educ-spacer {
+    height: 1rem;
+}
+
+.educ-spacer-latest {
+    height: 2rem;
+}
+
+.educ-deg {
+    font-style: italic;
+}
+
+.educ-deg-latest {
+    font-size: 1.25rem;
+}
+
+.skills-div {
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.skills {
+    display: flex;
+    margin: auto;
+}
+
+.skills-description {
+    font-size: 3rem;
+    max-width: 35rem;
+}
+
+.skills-row {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.indiv-skill-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 7.5rem;
+    height: 7.5rem;
+    padding: 0.5rem;
+    border-radius: 13.52px;
+    background: #1F2730;
+    box-shadow: 0px 0px 4px 0px #04CA6F;
+    margin: 0.5rem;
+}
+
+.indiv-skill-container img {
+    margin: auto;
+    height: 5rem;
+}
+
+.past-projects {
+    padding: 3rem;
+}
+
+.past-projects-description {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.projects {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.project {
+    text-align: center;
+    max-width: 50rem;
+    padding: 1rem;
+    margin: 0.5rem;
+}
+
+.project img {
+    height: 25rem;
+    border-radius: 25px;
+    box-shadow: 0px 0px 4px 0px #04CA6F;
+}
+
+.project-name {
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+.book{
+    display: flex;
+    padding: 3rem;
+}
+
+.book button {
+    margin: auto;
+    color: inherit;
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 15px;
+    background: linear-gradient(92deg, #172635 0%, rgba(43, 74, 106, 0.00) 100%);
+    box-shadow: 0px 0px 5px 0px rgba(4, 202, 111, 0.41);
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    background-color: black;
+}
+
+.footer-details {
+    margin-left: 2rem;
+}
+
+.footer-spacer-name {
+    height: 0.5rem;
+}
+
+.footer-email {
+    margin: auto;
+    text-decoration: underline;
+    font-size: .75rem;
+}
+
+.footer-spacer-copyright {
+    height: 0.5rem;
+}
+
+.footer-copyright {
+    margin: auto;
+    font-size: 0.5rem;
+}
+
+.footer-address {
+    margin: auto;
+    font-size: .75rem;
+}
+
+.green-text {
+    color: #04CA6F;
+}
+
+@media screen and (max-width: 55rem) {
+    nav {
+        width: 90%;
+        z-index: 0;
+    }
+
+    .nav-logo {
+        margin: auto;
+    }
+
+    .nav-links {
+        display: none;
+    }
+    
+    .nav-contact {
+        display: none;
+    }
+
+    .home {
+        flex-direction: column-reverse;
+    }
+
+    .personal-photo-img {
+        height: 50vh;
+    }
+
+    .educ-schools {
+        flex-direction: column;
+    }
+
+    .educ-container {
+        margin: 2rem auto;
+        width: 50svw;
+    }
+
+    .skills {
+        flex-direction: column;
+    }
+
+    .skills-description {
+        margin: auto;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 60rem) {
+    .home-intro-text {
+        text-align: center;
+    }
+}
+
+.debug-border {
+    border: dashed;
+    border-color: red;
+    border-width: 2px;
+}

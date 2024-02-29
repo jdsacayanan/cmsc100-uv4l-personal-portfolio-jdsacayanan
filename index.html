@@ -8,16 +8,16 @@
 </head>
 
 <body>
-    <nav>
+    <nav id="nav">
         <div class="nav-logo">
-            SAMPLE LOGO
+            <a href="#nav"><img src="images/logo.png" alt=""></a>
         </div>
         <div class="nav-links">
             <ul class="nav-links-ul">
-                <li class=""><a class="nav-links-ul-li-a" href="">Home</a></li>
-                <li class=""><a class="nav-links-ul-li-a" href="">About</a></li>
-                <li class=""><a class="nav-links-ul-li-a" href="">Skills</a></li>
-                <li class=""><a class="nav-links-ul-li-a" href="">Experience</a></li>
+                <li class=""><a class="nav-links-ul-li-a" href="#home">Home</a></li>
+                <li class=""><a class="nav-links-ul-li-a" href="#about">About</a></li>
+                <li class=""><a class="nav-links-ul-li-a" href="#skills">Skills</a></li>
+                <li class=""><a class="nav-links-ul-li-a" href="#Experience">Experience</a></li>
             </ul>
         </div>
         <div class="nav-contact">
@@ -26,7 +26,7 @@
             </button>
         </div>
     </nav>
-    <div class="home">
+    <div class="home" id="home">
         <div class="home-intro-text">
             <div class="intro-text-hello">Hello, I'm</div>
             <div class="intro-text-name">Jadon Sacayanan,</div>
@@ -36,7 +36,7 @@
             <img src="images/personal-photo.png" alt="" class="personal-photo-img">
         </div>
     </div>
-    <div class="education">
+    <div class="education" id="about">
         <div class="educ-is-important">A degree will teach you <span class="green-text">problem-solving</span> skills, <span class="green-text">critical thinking</span> skills, and a <span class="green-text">deep understanding</span> of technology.</div>
         <div class="educ-schools">
             <div class="educ-latest">
@@ -66,7 +66,10 @@
             </div>
         </div>
     </div>
-    <div class="skills-div">
+    <div class="biography">
+
+    </div>
+    <div class="skills-div" id="skills">
         <div class="skills">
             <div class="skills-description">The <span class="green-text">tools</span> I can use to turn you turn make your <span class="green-text">applications</span> work.</div>
             <div class="skills-table">
@@ -115,16 +118,18 @@
             </div>
         </div>
     </div>
-    <div class="past-projects">
+    <div class="past-projects" id="Experience">
         <div class="past-projects-description">Some <span class="green-text">projects</span> I've done before.</div>
         <div class="projects">
             <div class="project">
                 <img src="images/window-golf.jpeg" alt="">
                 <div class="project-name">Window Golf</div>
+                <div class="project-description">A simple golf gamed developed using Java which runs on top of your desktop screen.</div>
             </div>
             <div class="project">
-                <img src="images/window-golf.jpeg" alt="">
-                <div class="project-name">Window Golf</div>
+                <img src="images/dietproblem.png" alt="">
+                <div class="project-name">Diet Solver</div>
+                <div class="project-description">A simple application developed using R and R shiny that uses Simplex Method to solve for the optimal diet while reducing the cost.</div>
             </div>
         </div>
     </div>
@@ -132,7 +137,9 @@
         <button>Let's start a project!</button>
     </div>
     <footer class="footer">
-        <div>LOGOOO</div>
+        <div>
+            <img src="images/logo.png" alt="">
+        </div>
         <div class="footer-details">
             <div>Jadon Sacayanan</div>
             <div class="footer-spacer-name"></div>

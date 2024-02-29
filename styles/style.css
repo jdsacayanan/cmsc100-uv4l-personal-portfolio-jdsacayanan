@@ -317,6 +317,7 @@ nav {
 
     .home {
         flex-direction: column-reverse;
+        padding-bottom: 2rem;
     }
 
     .personal-photo-img {

@@ -104,7 +104,8 @@ nav {
     padding: 1rem 5rem 1rem 1rem;
     width: fit-content;
     border-radius: 25px;
-    background: linear-gradient(92deg, rgba(23, 38, 53, 0.70) 0%, rgba(20, 43, 66, 0.27) 100%);
+    border-radius: 25px;
+    background: linear-gradient(92deg, #04321D 0%, #0D3221 0.01%, #062617 100%);
 }
 
 .educ-school {
